@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10132" started-at="2024-08-05T16:02:50Z" finished-at="2024-08-05T16:03:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10132" started-at="2024-08-05T16:02:50Z" finished-at="2024-08-05T16:03:00Z">
+      <class name="TestScript.TestDragAndDrop">
+        <test-method status="PASS" signature="ReadPropertyFile()[pri:0, instance:TestScript.TestDragAndDrop@9f70c54]" name="ReadPropertyFile" is-config="true" duration-ms="60" started-at="2024-08-05T21:32:50Z" finished-at="2024-08-05T21:32:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReadPropertyFile -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:TestScript.TestDragAndDrop@9f70c54]" name="setUp" is-config="true" duration-ms="2132" started-at="2024-08-05T21:32:50Z" finished-at="2024-08-05T21:32:52Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigateStaticDragAndDropPage()[pri:0, instance:TestScript.TestDragAndDrop@9f70c54]" name="navigateStaticDragAndDropPage" duration-ms="3175" started-at="2024-08-05T21:32:52Z" finished-at="2024-08-05T21:32:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateStaticDragAndDropPage -->
+        <test-method status="PASS" signature="verfiyStaticPage()[pri:1, instance:TestScript.TestDragAndDrop@9f70c54]" name="verfiyStaticPage" duration-ms="22" started-at="2024-08-05T21:32:55Z" finished-at="2024-08-05T21:32:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiyStaticPage -->
+        <test-method status="PASS" signature="performStaticDragAndDrop()[pri:2, instance:TestScript.TestDragAndDrop@9f70c54]" name="performStaticDragAndDrop" duration-ms="892" started-at="2024-08-05T21:32:55Z" depends-on-methods="TestScript.TestDragAndDrop.verfiyStaticPage" finished-at="2024-08-05T21:32:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performStaticDragAndDrop -->
+        <test-method status="PASS" signature="navigateDynamicDragAndDropPage()[pri:3, instance:TestScript.TestDragAndDrop@9f70c54]" name="navigateDynamicDragAndDropPage" duration-ms="1600" started-at="2024-08-05T21:32:56Z" finished-at="2024-08-05T21:32:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateDynamicDragAndDropPage -->
+        <test-method status="PASS" signature="verfiydynamicPage()[pri:4, instance:TestScript.TestDragAndDrop@9f70c54]" name="verfiydynamicPage" duration-ms="17" started-at="2024-08-05T21:32:58Z" finished-at="2024-08-05T21:32:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiydynamicPage -->
+        <test-method status="PASS" signature="performDynamicDragAndDrop()[pri:5, instance:TestScript.TestDragAndDrop@9f70c54]" name="performDynamicDragAndDrop" duration-ms="843" started-at="2024-08-05T21:32:58Z" depends-on-methods="TestScript.TestDragAndDrop.verfiydynamicPage" finished-at="2024-08-05T21:32:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performDynamicDragAndDrop -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestScript.TestDragAndDrop@9f70c54]" name="teardown" is-config="true" duration-ms="703" started-at="2024-08-05T21:32:59Z" finished-at="2024-08-05T21:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestScript.TestDragAndDrop -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

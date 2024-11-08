@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+  
+ <!-- Test script by using chrome -->
+  <test name="Test1">
+  	<parameter name="browser" value="chrome"/>
+	   	 <groups>
+	      <run>
+	        <include name="smoke"/>
+	      </run>
+	    </groups>
+    	<classes>
+	    	<class name="Superclass.Baseclass"></class>
+	      	<class name="TestScript.TestAlert"/>
+	      	<class name="TestScript.TestFrame"></class>
+	      	<class name="TestScript.TestRegister"></class>
+	      	<class name="TestScript.TestWindowHandle"></class>
+	      	<class name="TestScript.TestHome"></class>
+   	 	</classes>
+  </test> <!-- Test1 -->
+ 	
+ 		
+ <!-- Test script by using edge -->		
+  <test name="Test2">
+  	<parameter name="browser" value="firefox"></parameter>
+ 		<groups>
+ 			<run>
+ 				<include name="smoke"></include>
+ 				
+ 			</run>
+ 		</groups>
+  		
+  		<classes>
+	  		<class name="Superclass.Baseclass"></class>
+	      	<class name="TestScript.TestAlert"/>
+	      	<class name="TestScript.TestFrame"></class>
+	      	<class name="TestScript.TestRegister"></class>
+	      	<class name="TestScript.TestWindowHandle"></class>
+	      	<class name="TestScript.TestHome"></class>
+  		</classes>
+  </test><!-- Test2 -->
+  
+  
+</suite> <!-- Suite -->
