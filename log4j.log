@@ -4733,3 +4733,601 @@ Session ID: cec2d1e108b8b5ea90cfbfe2e0130ae7
 2024-08-05 21:32:59 INFO  Log:95 - perform thirdImg dropDown
 2024-08-05 21:32:59 INFO  Log:128 - start End page method
 2024-08-05 21:32:59 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-22 12:05:06 INFO  Log:20 - ==========Testing Start===========
+2024-11-22 12:05:06 INFO  Log:93 - Read Property File
+2024-11-22 12:05:06 INFO  Log:38 - Extent Report Initialization 
+2024-11-22 12:07:06 INFO  Log:20 - ==========Testing Start===========
+2024-11-22 12:07:06 INFO  Log:93 - Read Property File
+2024-11-22 12:07:06 INFO  Log:38 - Extent Report Initialization 
+2024-11-22 12:07:17 INFO  Log:261 - Launch Edge browser
+2024-11-22 12:08:39 INFO  Log:38 - Launch Frame Page
+2024-11-22 12:08:39 INFO  Log:20 - ==========Perform Nested Frame Method  Start===========
+2024-11-22 12:08:39 INFO  Log:38 - Click on Multiple Frame options
+2024-11-22 12:08:39 INFO  Log:38 - Switch to Single first Frame
+2024-11-22 12:08:39 INFO  Log:38 - Switch to nested frame
+2024-11-22 12:08:40 INFO  Log:38 - Send input sucessfully
+2024-11-22 12:08:40 INFO  Log:29 - ==========Perform Nested Frame Method  End==============
+2024-11-22 12:08:41 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-22 12:08:41 INFO  Log:20 - ==========performSingleFrameHandling Method Start===========
+2024-11-22 12:08:41 ERROR Log:56 - Single Frame unable to switch becoz it is not diplay or enable ot null
+2024-11-22 12:09:27 INFO  Log:20 - ==========Testing Start===========
+2024-11-22 12:09:27 INFO  Log:93 - Read Property File
+2024-11-22 12:09:27 INFO  Log:38 - Extent Report Initialization 
+2024-11-22 12:10:03 INFO  Log:20 - ==========Testing Start===========
+2024-11-22 12:10:03 INFO  Log:93 - Read Property File
+2024-11-22 12:10:03 INFO  Log:38 - Extent Report Initialization 
+2024-11-22 12:10:09 INFO  Log:261 - Launch Edge browser
+2024-11-22 12:10:33 INFO  Log:38 - Launch Alert Page
+2024-11-22 12:10:33 INFO  Log:20 - ==========Verify Alert Page Start===========
+2024-11-22 12:10:33 INFO  Log:29 - ==========Verify Alert Page End==============
+2024-11-22 12:10:33 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-22 12:10:33 INFO  Log:20 - ==========verify Cancel Confirmation Alert Method Start===========
+2024-11-22 12:10:33 INFO  Log:115 - Verify okCancelBtn Element Display and enable
+2024-11-22 12:10:33 INFO  Log:121 - Verify confirmationAlert Element Display and enable
+2024-11-22 12:10:33 INFO  Log:123 - Click on Alert Confirmation btn
+2024-11-22 12:10:33 INFO  Log:125 - handle Confirmation Alert Sucessfully
+2024-11-22 12:10:33 INFO  Log:29 - ==========verify Cancel Confirmation Alert Method  End==============
+2024-11-22 12:10:34 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-22 12:10:34 INFO  Log:29 - ==========current tab End==============
+2024-11-22 12:10:40 INFO  Log:261 - Launch Edge browser
+2024-11-22 12:11:11 INFO  Log:38 - Launch Frame Page
+2024-11-22 12:11:11 INFO  Log:20 - ==========performSingleFrameHandling Method Start===========
+2024-11-22 12:11:11 INFO  Log:38 - Switch Single Frame Sucessfully
+2024-11-22 12:11:12 INFO  Log:38 - Send input sucessfully
+2024-11-22 12:11:12 INFO  Log:29 - ==========performSingleFrameHandling Method End==============
+2024-11-22 12:11:12 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-22 12:11:12 INFO  Log:29 - ==========current tab End==============
+2024-11-22 12:11:17 INFO  Log:261 - Launch Edge browser
+2024-11-22 12:11:48 INFO  Log:38 - Launch Regsiter Page
+2024-11-22 12:11:49 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-22 12:11:49 INFO  Log:38 - Entered First Name
+2024-11-22 12:11:49 INFO  Log:38 - Entered Last Name
+2024-11-22 12:11:50 INFO  Log:38 - Entered Address
+2024-11-22 12:11:50 INFO  Log:38 - Entered email
+2024-11-22 12:11:50 INFO  Log:38 - Entered phoneTextBox
+2024-11-22 12:11:50 INFO  Log:38 - Click on submitBtn Option
+2024-11-22 12:11:50 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-22 12:11:50 INFO  Log:29 - ==========current tab End==============
+2024-11-22 12:11:55 INFO  Log:261 - Launch Edge browser
+2024-11-22 12:12:47 INFO  Log:38 - Launch Window Page
+2024-11-22 12:12:47 INFO  Log:20 - ==========singelwindowHandle method Start===========
+2024-11-22 12:12:47 INFO  Log:38 - Click on Open New Tab Btn
+2024-11-22 12:12:48 INFO  Log:38 - Click on New window
+2024-11-22 12:13:02 INFO  Log:29 - ==========singelwindowHandle method End==============
+2024-11-22 12:13:02 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-22 12:13:02 INFO  Log:20 - ==========Verify Window page  Start===========
+2024-11-22 12:13:02 INFO  Log:29 - ==========Verify Window Page End==============
+2024-11-22 12:13:02 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-22 12:13:02 INFO  Log:29 - ==========Testing End==============
+2024-11-22 12:13:06 INFO  Log:261 - Launch Edge browser
+2024-11-22 12:13:14 INFO  Log:38 - Launch Home Page
+2024-11-22 12:13:14 INFO  Log:20 - ==========Verify Home Page Start===========
+2024-11-22 12:13:14 INFO  Log:29 - ==========Verify Home Page End==============
+2024-11-22 12:13:14 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-22 12:13:14 INFO  Log:29 - ==========current tab End==============
+2024-11-22 12:13:15 INFO  Log:38 - Extent Report Initialization 
+2024-11-22 12:13:51 INFO  Log:223 - Launch Firefox browser
+2024-11-22 12:14:26 INFO  Log:38 - Launch Alert Page
+2024-11-22 12:14:26 INFO  Log:20 - ==========Verify Alert Page Start===========
+2024-11-22 12:14:26 INFO  Log:29 - ==========Verify Alert Page End==============
+2024-11-22 12:14:26 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-22 12:14:26 INFO  Log:20 - ==========verify Cancel Confirmation Alert Method Start===========
+2024-11-22 12:14:26 INFO  Log:115 - Verify okCancelBtn Element Display and enable
+2024-11-22 12:14:26 INFO  Log:121 - Verify confirmationAlert Element Display and enable
+2024-11-22 12:14:26 INFO  Log:123 - Click on Alert Confirmation btn
+2024-11-22 12:14:27 INFO  Log:125 - handle Confirmation Alert Sucessfully
+2024-11-22 12:14:27 INFO  Log:29 - ==========verify Cancel Confirmation Alert Method  End==============
+2024-11-22 12:14:27 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-22 12:14:27 INFO  Log:29 - ==========current tab End==============
+2024-11-22 12:14:34 INFO  Log:223 - Launch Firefox browser
+2024-11-22 12:15:13 INFO  Log:38 - Launch Frame Page
+2024-11-22 12:15:13 INFO  Log:20 - ==========performSingleFrameHandling Method Start===========
+2024-11-22 12:15:13 INFO  Log:38 - Switch Single Frame Sucessfully
+2024-11-22 12:15:14 INFO  Log:38 - Send input sucessfully
+2024-11-22 12:15:14 INFO  Log:29 - ==========performSingleFrameHandling Method End==============
+2024-11-22 12:15:14 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-22 12:15:14 INFO  Log:29 - ==========current tab End==============
+2024-11-22 12:15:20 INFO  Log:223 - Launch Firefox browser
+2024-11-22 12:15:40 INFO  Log:38 - Launch Regsiter Page
+2024-11-22 12:15:41 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-22 12:15:41 INFO  Log:38 - Entered First Name
+2024-11-22 12:15:41 INFO  Log:38 - Entered Last Name
+2024-11-22 12:15:41 INFO  Log:38 - Entered Address
+2024-11-22 12:15:41 INFO  Log:38 - Entered email
+2024-11-22 12:15:41 INFO  Log:38 - Entered phoneTextBox
+2024-11-22 12:15:41 INFO  Log:38 - Click on submitBtn Option
+2024-11-22 12:15:41 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-22 12:15:41 INFO  Log:29 - ==========current tab End==============
+2024-11-22 12:15:48 INFO  Log:223 - Launch Firefox browser
+2024-11-22 12:16:00 INFO  Log:38 - Launch Window Page
+2024-11-22 12:16:00 INFO  Log:20 - ==========singelwindowHandle method Start===========
+2024-11-22 12:16:00 INFO  Log:38 - Click on Open New Tab Btn
+2024-11-22 12:16:00 INFO  Log:38 - Click on New window
+2024-11-22 12:16:00 INFO  Log:29 - ==========singelwindowHandle method End==============
+2024-11-22 12:16:01 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-22 12:16:01 INFO  Log:20 - ==========Verify Window page  Start===========
+2024-11-22 12:16:01 INFO  Log:29 - ==========Verify Window Page End==============
+2024-11-22 12:16:01 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-22 12:16:01 INFO  Log:29 - ==========Testing End==============
+2024-11-22 12:16:06 INFO  Log:223 - Launch Firefox browser
+2024-11-22 12:16:28 INFO  Log:38 - Launch Home Page
+2024-11-22 12:16:28 INFO  Log:20 - ==========Verify Home Page Start===========
+2024-11-22 12:16:28 INFO  Log:29 - ==========Verify Home Page End==============
+2024-11-22 12:16:28 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-22 12:16:28 INFO  Log:29 - ==========current tab End==============
+2024-11-22 12:25:45 INFO  Log:20 - ==========Testing Start===========
+2024-11-22 12:25:45 INFO  Log:93 - Read Property File
+2024-11-22 12:25:45 INFO  Log:38 - Extent Report Initialization 
+2024-11-22 12:25:55 INFO  Log:223 - Launch Firefox browser
+2024-11-22 12:25:55 INFO  Log:223 - Launch Firefox browser
+2024-11-22 12:25:56 INFO  Log:223 - Launch Firefox browser
+2024-11-22 12:25:58 INFO  Log:223 - Launch Firefox browser
+2024-11-22 12:26:37 INFO  Log:38 - Launch Alert Page
+2024-11-22 12:26:37 INFO  Log:20 - ==========Verify Alert Page Start===========
+2024-11-22 12:26:37 INFO  Log:29 - ==========Verify Alert Page End==============
+2024-11-22 12:26:37 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-22 12:26:37 INFO  Log:20 - ==========Accept Confirmation Alert Method Start===========
+2024-11-22 12:26:37 INFO  Log:156 - Verify okCancelBtn Element Display and enable
+2024-11-22 12:26:37 INFO  Log:162 - Verify confirmationAlert Element Display and enable
+2024-11-22 12:26:38 INFO  Log:164 - Click on Alert Confirmation btn
+2024-11-22 12:26:38 INFO  Log:166 - handle accept ConfirmationAlert Alert Sucessfully
+2024-11-22 12:26:38 INFO  Log:29 - ==========Accept Confirmation Alert Method End==============
+2024-11-22 12:26:38 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-22 12:26:38 INFO  Log:20 - ==========verify Cancel Confirmation Alert Method Start===========
+2024-11-22 12:26:38 INFO  Log:115 - Verify okCancelBtn Element Display and enable
+2024-11-22 12:26:38 INFO  Log:121 - Verify confirmationAlert Element Display and enable
+2024-11-22 12:26:38 INFO  Log:123 - Click on Alert Confirmation btn
+2024-11-22 12:26:38 INFO  Log:125 - handle Confirmation Alert Sucessfully
+2024-11-22 12:26:38 INFO  Log:29 - ==========verify Cancel Confirmation Alert Method  End==============
+2024-11-22 12:26:38 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-22 12:26:38 INFO  Log:20 - ==========Prompt Alert Method Start===========
+2024-11-22 12:26:39 INFO  Log:198 - Verify alertTextBox Element Display and enable
+2024-11-22 12:26:39 INFO  Log:202 - Verify promptAlert Element Display and enable
+2024-11-22 12:26:39 INFO  Log:204 - Click on Alert promptAlert btn
+2024-11-22 12:26:39 INFO  Log:209 - Handle prompt Alert sucessfully
+2024-11-22 12:26:39 INFO  Log:29 - ==========Prompt Alert Method  End==============
+2024-11-22 12:26:39 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-22 12:26:39 INFO  Log:20 - ==========Simple Alert Method Start===========
+2024-11-22 12:26:39 ERROR Log:87 - OK button is not present or enabled..
+2024-11-22 12:26:39 INFO  Log:29 - ==========Simple Alert Method  End==============
+2024-11-22 12:26:39 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-22 12:26:39 INFO  Log:29 - ==========current tab End==============
+2024-11-22 12:26:40 INFO  Log:38 - Launch Window Page
+2024-11-22 12:26:40 INFO  Log:20 - ==========SeprateWindowHandle method Start===========
+2024-11-22 12:26:40 INFO  Log:38 - Launch Frame Page
+2024-11-22 12:26:40 INFO  Log:20 - ==========Perform Nested Frame Method  Start===========
+2024-11-22 12:26:41 INFO  Log:20 - ==========MultipleWindowHandling Method Start===========
+2024-11-22 12:26:41 ERROR Log:56 - An unexpected error occurred:Tried to run command without establishing a connection
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5db82e33-09e7-4383-a038-572d4f3332c3, findElement {using=xpath, value=//a[text()='Iframe with in an Iframe']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0.1, moz:accessibilityChecks: false, moz:buildID: 20241103194048, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11652, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5db82e33-09e7-4383-a038-572d4f3332c3
+2024-11-22 12:26:41 ERROR Log:56 - An unexpected error occurred: Tried to run command without establishing a connection
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5db82e33-09e7-4383-a038-572d4f3332c3, findElement {using=xpath, value=//a[text()='Open Seperate Multiple Windows']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0.1, moz:accessibilityChecks: false, moz:buildID: 20241103194048, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11652, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5db82e33-09e7-4383-a038-572d4f3332c3
+2024-11-22 12:26:41 ERROR Log:56 - An unexpected error occurred: Tried to run command without establishing a connection
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5db82e33-09e7-4383-a038-572d4f3332c3, findElement {using=xpath, value=//a[text()='Open New Seperate Windows']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0.1, moz:accessibilityChecks: false, moz:buildID: 20241103194048, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11652, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5db82e33-09e7-4383-a038-572d4f3332c3
+2024-11-22 12:26:41 ERROR Log:56 - An unexpected error occurred:Tried to run command without establishing a connection
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5db82e33-09e7-4383-a038-572d4f3332c3, findElement {using=xpath, value=//div[@id='Multiple']/iframe}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0.1, moz:accessibilityChecks: false, moz:buildID: 20241103194048, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11652, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5db82e33-09e7-4383-a038-572d4f3332c3
+2024-11-22 12:26:41 INFO  Log:29 - ==========current tab End==============
+2024-11-22 12:27:10 INFO  Log:38 - Launch Regsiter Page
+2024-11-23 11:34:32 INFO  Log:20 - ==========Testing Start===========
+2024-11-23 11:34:32 INFO  Log:93 - Read Property File
+2024-11-23 11:34:32 INFO  Log:38 - Extent Report Initialization 
+2024-11-23 11:34:44 INFO  Log:223 - Launch Firefox browser
+2024-11-23 11:34:44 INFO  Log:223 - Launch Firefox browser
+2024-11-23 11:34:45 INFO  Log:223 - Launch Firefox browser
+2024-11-23 11:34:46 INFO  Log:223 - Launch Firefox browser
+2024-11-23 11:35:27 INFO  Log:38 - Launch Alert Page
+2024-11-23 11:35:27 INFO  Log:20 - ==========Verify Alert Page Start===========
+2024-11-23 11:35:28 INFO  Log:38 - Launch Window Page
+2024-11-23 11:35:28 INFO  Log:20 - ==========SeprateWindowHandle method Start===========
+2024-11-23 11:35:34 INFO  Log:38 - Launch Frame Page
+2024-11-23 11:35:34 INFO  Log:20 - ==========Perform Nested Frame Method  Start===========
+2024-11-23 11:35:45 ERROR Log:56 - An unexpected error occurred: Unable to locate element: //a[text()='Open New Seperate Windows']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [dcad2049-c2d0-4d4f-a149-672b5df41750, findElement {using=xpath, value=//a[text()='Open New Seperate Windows']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0.2, moz:accessibilityChecks: false, moz:buildID: 20241110231641, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22976, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: dcad2049-c2d0-4d4f-a149-672b5df41750
+2024-11-23 11:35:45 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:35:45 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:35:45 INFO  Log:20 - ==========Accept Confirmation Alert Method Start===========
+2024-11-23 11:35:45 INFO  Log:20 - ==========Verify Window page  Start===========
+2024-11-23 11:35:45 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:35:46 INFO  Log:38 - Launch Regsiter Page
+2024-11-23 11:35:55 ERROR Log:185 - An unexpected error occurred
+2024-11-23 11:35:55 INFO  Log:38 - Click on Multiple Frame options
+2024-11-23 11:35:55 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:35:55 INFO  Log:20 - ==========verify Cancel Confirmation Alert Method Start===========
+2024-11-23 11:36:12 ERROR Log:144 - An unexpected error occurred
+2024-11-23 11:36:22 ERROR Log:56 - An unexpected error occurred: Unable to locate element: //input[@placeholder='First Name']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [dcad2049-c2d0-4d4f-a149-672b5df41750, findElement {using=xpath, value=//input[@placeholder='First Name']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0.2, moz:accessibilityChecks: false, moz:buildID: 20241110231641, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22976, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: dcad2049-c2d0-4d4f-a149-672b5df41750
+2024-11-23 11:36:22 INFO  Log:38 - unble to switch nested first frame
+2024-11-23 11:36:22 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:36:22 INFO  Log:20 - ==========Prompt Alert Method Start===========
+2024-11-23 11:36:22 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:36:32 ERROR Log:56 - An unexpected error occurred:Unable to locate element: //h5[text()='Nested iFrames']/parent::div/iframe
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [dcad2049-c2d0-4d4f-a149-672b5df41750, findElement {using=xpath, value=//h5[text()='Nested iFrames']/parent::div/iframe}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0.2, moz:accessibilityChecks: false, moz:buildID: 20241110231641, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22976, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: dcad2049-c2d0-4d4f-a149-672b5df41750
+2024-11-23 11:36:42 INFO  Log:224 - An unexpected error occurred
+2024-11-23 11:36:42 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:36:42 INFO  Log:29 - ==========current tab End==============
+2024-11-23 11:36:52 ERROR Log:56 - An unexpected error occurred: Tried to run command without establishing a connection
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [dcad2049-c2d0-4d4f-a149-672b5df41750, findElement {using=xpath, value=//input[@placeholder='First Name']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0.2, moz:accessibilityChecks: false, moz:buildID: 20241110231641, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22976, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: dcad2049-c2d0-4d4f-a149-672b5df41750
+2024-11-23 11:36:52 INFO  Log:20 - ==========MultipleWindowHandling Method Start===========
+2024-11-23 11:36:52 ERROR Log:56 - An unexpected error occurred: Tried to run command without establishing a connection
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [dcad2049-c2d0-4d4f-a149-672b5df41750, findElement {using=xpath, value=//a[text()='Open Seperate Multiple Windows']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0.2, moz:accessibilityChecks: false, moz:buildID: 20241110231641, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22976, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: dcad2049-c2d0-4d4f-a149-672b5df41750
+2024-11-23 11:36:52 INFO  Log:29 - ==========Testing End==============
+2024-11-23 11:37:48 INFO  Log:20 - ==========Testing Start===========
+2024-11-23 11:37:48 INFO  Log:93 - Read Property File
+2024-11-23 11:37:48 INFO  Log:38 - Extent Report Initialization 
+2024-11-23 11:37:54 INFO  Log:223 - Launch Firefox browser
+2024-11-23 11:38:10 INFO  Log:38 - Launch Alert Page
+2024-11-23 11:38:10 INFO  Log:20 - ==========Verify Alert Page Start===========
+2024-11-23 11:38:10 INFO  Log:29 - ==========Verify Alert Page End==============
+2024-11-23 11:38:10 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:38:10 INFO  Log:20 - ==========Accept Confirmation Alert Method Start===========
+2024-11-23 11:38:10 INFO  Log:156 - Verify okCancelBtn Element Display and enable
+2024-11-23 11:38:10 INFO  Log:162 - Verify confirmationAlert Element Display and enable
+2024-11-23 11:38:10 INFO  Log:164 - Click on Alert Confirmation btn
+2024-11-23 11:38:10 INFO  Log:166 - handle accept ConfirmationAlert Alert Sucessfully
+2024-11-23 11:38:10 INFO  Log:29 - ==========Accept Confirmation Alert Method End==============
+2024-11-23 11:38:10 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:38:10 INFO  Log:20 - ==========verify Cancel Confirmation Alert Method Start===========
+2024-11-23 11:38:10 INFO  Log:115 - Verify okCancelBtn Element Display and enable
+2024-11-23 11:38:11 INFO  Log:121 - Verify confirmationAlert Element Display and enable
+2024-11-23 11:38:11 INFO  Log:123 - Click on Alert Confirmation btn
+2024-11-23 11:38:11 INFO  Log:125 - handle Confirmation Alert Sucessfully
+2024-11-23 11:38:11 INFO  Log:29 - ==========verify Cancel Confirmation Alert Method  End==============
+2024-11-23 11:38:11 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:38:11 INFO  Log:20 - ==========Prompt Alert Method Start===========
+2024-11-23 11:38:11 INFO  Log:198 - Verify alertTextBox Element Display and enable
+2024-11-23 11:38:11 INFO  Log:202 - Verify promptAlert Element Display and enable
+2024-11-23 11:38:11 INFO  Log:204 - Click on Alert promptAlert btn
+2024-11-23 11:38:11 INFO  Log:209 - Handle prompt Alert sucessfully
+2024-11-23 11:38:11 INFO  Log:29 - ==========Prompt Alert Method  End==============
+2024-11-23 11:38:11 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:38:11 INFO  Log:20 - ==========Simple Alert Method Start===========
+2024-11-23 11:38:11 ERROR Log:87 - OK button is not present or enabled..
+2024-11-23 11:38:11 INFO  Log:29 - ==========Simple Alert Method  End==============
+2024-11-23 11:38:12 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:38:12 INFO  Log:29 - ==========current tab End==============
+2024-11-23 11:38:16 INFO  Log:223 - Launch Firefox browser
+2024-11-23 11:38:38 INFO  Log:38 - Launch Window Page
+2024-11-23 11:38:38 INFO  Log:20 - ==========SeprateWindowHandle method Start===========
+2024-11-23 11:38:38 INFO  Log:38 - Click on New Seperate Window Btn
+2024-11-23 11:38:38 INFO  Log:38 - Click on Sprate window Click btn
+2024-11-23 11:38:38 INFO  Log:29 - ==========SeprateWindowHandle method End==============
+2024-11-23 11:38:39 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:38:39 INFO  Log:20 - ==========Verify Window page  Start===========
+2024-11-23 11:38:39 INFO  Log:29 - ==========Verify Window Page End==============
+2024-11-23 11:38:39 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:38:42 INFO  Log:223 - Launch Firefox browser
+2024-11-23 11:39:01 INFO  Log:38 - Launch Regsiter Page
+2024-11-23 11:39:08 INFO  Log:38 - Entered First Name
+2024-11-23 11:39:08 INFO  Log:38 - Entered Last Name
+2024-11-23 11:39:08 INFO  Log:38 - Entered Address
+2024-11-23 11:39:08 INFO  Log:38 - Entered email
+2024-11-23 11:39:08 INFO  Log:38 - Entered phoneTextBox
+2024-11-23 11:39:08 INFO  Log:38 - Click on male
+2024-11-23 11:39:09 INFO  Log:38 - Click on language Option
+2024-11-23 11:39:09 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:39:17 INFO  Log:38 - Entered First Name
+2024-11-23 11:39:17 INFO  Log:38 - Entered Last Name
+2024-11-23 11:39:17 INFO  Log:38 - Entered Address
+2024-11-23 11:39:17 INFO  Log:38 - Entered email
+2024-11-23 11:39:17 INFO  Log:38 - Entered phoneTextBox
+2024-11-23 11:39:17 INFO  Log:38 - Click on male
+2024-11-23 11:39:18 INFO  Log:38 - Select Hobiee
+2024-11-23 11:39:18 INFO  Log:38 - Select Hobiee
+2024-11-23 11:39:18 INFO  Log:38 - Select Hobiee
+2024-11-23 11:39:18 INFO  Log:38 - Click on language Option
+2024-11-23 11:39:19 INFO  Log:38 - Select Lanuguage
+2024-11-23 11:39:19 INFO  Log:38 - Select Lanuguage
+2024-11-23 11:39:19 INFO  Log:38 - Click outSide
+2024-11-23 11:39:20 INFO  Log:38 - Click on skills Option
+2024-11-23 11:39:20 INFO  Log:38 - Click on country Option
+2024-11-23 11:39:21 INFO  Log:38 - Select Country
+2024-11-23 11:39:21 INFO  Log:38 - Click on Year Option
+2024-11-23 11:39:22 INFO  Log:38 - Click on Month Option
+2024-11-23 11:39:22 INFO  Log:38 - Click on day Option
+2024-11-23 11:39:22 INFO  Log:38 - Entered password
+2024-11-23 11:39:23 INFO  Log:38 - Entered confirm Password
+2024-11-23 11:39:23 INFO  Log:38 - Click on submitBtn Option
+2024-11-23 11:39:23 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:39:32 INFO  Log:38 - Entered First Name
+2024-11-23 11:39:32 INFO  Log:38 - Entered Last Name
+2024-11-23 11:39:32 INFO  Log:38 - Entered Address
+2024-11-23 11:39:32 INFO  Log:38 - Entered email
+2024-11-23 11:39:32 INFO  Log:38 - Entered phoneTextBox
+2024-11-23 11:39:33 INFO  Log:38 - Click on female
+2024-11-23 11:39:33 INFO  Log:38 - Select Hobiee
+2024-11-23 11:39:33 INFO  Log:38 - Click on language Option
+2024-11-23 11:39:43 INFO  Log:38 - Select Lanuguage
+2024-11-23 11:39:53 INFO  Log:38 - Select Lanuguage
+2024-11-23 11:40:03 INFO  Log:38 - Select Lanuguage
+2024-11-23 11:40:04 INFO  Log:38 - Click outSide
+2024-11-23 11:40:04 INFO  Log:38 - Click on skills Option
+2024-11-23 11:40:04 INFO  Log:38 - Click on country Option
+2024-11-23 11:40:05 INFO  Log:38 - Select Country
+2024-11-23 11:40:05 INFO  Log:38 - Click on Year Option
+2024-11-23 11:40:06 INFO  Log:38 - Click on Month Option
+2024-11-23 11:40:06 INFO  Log:38 - Click on day Option
+2024-11-23 11:40:07 INFO  Log:38 - Entered password
+2024-11-23 11:40:07 INFO  Log:38 - Entered confirm Password
+2024-11-23 11:40:07 INFO  Log:38 - Click on submitBtn Option
+2024-11-23 11:40:07 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:40:15 INFO  Log:38 - Entered First Name
+2024-11-23 11:40:15 INFO  Log:38 - Entered Last Name
+2024-11-23 11:40:15 INFO  Log:38 - Entered Address
+2024-11-23 11:40:15 INFO  Log:38 - Entered email
+2024-11-23 11:40:15 INFO  Log:38 - Entered phoneTextBox
+2024-11-23 11:40:15 INFO  Log:38 - Click on male
+2024-11-23 11:40:16 INFO  Log:38 - Select Hobiee
+2024-11-23 11:40:16 INFO  Log:38 - Select Hobiee
+2024-11-23 11:40:16 INFO  Log:38 - Click on language Option
+2024-11-23 11:40:17 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:40:17 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:40:17 INFO  Log:29 - ==========current tab End==============
+2024-11-23 11:40:21 INFO  Log:223 - Launch Firefox browser
+2024-11-23 11:40:29 INFO  Log:38 - Launch Frame Page
+2024-11-23 11:40:29 INFO  Log:20 - ==========Perform Nested Frame Method  Start===========
+2024-11-23 11:40:29 INFO  Log:38 - Click on Multiple Frame options
+2024-11-23 11:40:29 INFO  Log:38 - Switch to Single first Frame
+2024-11-23 11:40:29 INFO  Log:38 - Switch to nested frame
+2024-11-23 11:40:29 INFO  Log:38 - Send input sucessfully
+2024-11-23 11:40:29 INFO  Log:29 - ==========Perform Nested Frame Method  End==============
+2024-11-23 11:40:29 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:40:29 INFO  Log:29 - ==========current tab End==============
+2024-11-23 11:40:30 INFO  Log:20 - ==========MultipleWindowHandling Method Start===========
+2024-11-23 11:40:30 ERROR Log:56 - An unexpected error occurred: Tried to run command without establishing a connection
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d1ceebbb-1093-4cd3-bae6-faf9b0c7dfe4, findElement {using=xpath, value=//a[text()='Open Seperate Multiple Windows']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0.2, moz:accessibilityChecks: false, moz:buildID: 20241110231641, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28484, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: d1ceebbb-1093-4cd3-bae6-faf9b0c7dfe4
+2024-11-23 11:40:30 INFO  Log:29 - ==========Testing End==============
+2024-11-23 11:44:38 INFO  Log:20 - ==========Testing Start===========
+2024-11-23 11:44:38 INFO  Log:93 - Read Property File
+2024-11-23 11:44:38 INFO  Log:38 - Extent Report Initialization 
+2024-11-23 11:44:42 INFO  Log:223 - Launch Firefox browser
+2024-11-23 11:44:50 INFO  Log:38 - Launch Alert Page
+2024-11-23 11:44:50 INFO  Log:20 - ==========Verify Alert Page Start===========
+2024-11-23 11:44:50 INFO  Log:29 - ==========Verify Alert Page End==============
+2024-11-23 11:44:50 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:44:50 INFO  Log:20 - ==========Accept Confirmation Alert Method Start===========
+2024-11-23 11:44:50 INFO  Log:156 - Verify okCancelBtn Element Display and enable
+2024-11-23 11:44:51 INFO  Log:162 - Verify confirmationAlert Element Display and enable
+2024-11-23 11:44:51 INFO  Log:164 - Click on Alert Confirmation btn
+2024-11-23 11:44:51 INFO  Log:166 - handle accept ConfirmationAlert Alert Sucessfully
+2024-11-23 11:44:51 INFO  Log:29 - ==========Accept Confirmation Alert Method End==============
+2024-11-23 11:44:51 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:44:51 INFO  Log:20 - ==========verify Cancel Confirmation Alert Method Start===========
+2024-11-23 11:44:51 INFO  Log:115 - Verify okCancelBtn Element Display and enable
+2024-11-23 11:44:51 INFO  Log:121 - Verify confirmationAlert Element Display and enable
+2024-11-23 11:44:51 INFO  Log:123 - Click on Alert Confirmation btn
+2024-11-23 11:44:51 INFO  Log:125 - handle Confirmation Alert Sucessfully
+2024-11-23 11:44:51 INFO  Log:29 - ==========verify Cancel Confirmation Alert Method  End==============
+2024-11-23 11:44:51 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:44:51 INFO  Log:20 - ==========Prompt Alert Method Start===========
+2024-11-23 11:44:52 INFO  Log:198 - Verify alertTextBox Element Display and enable
+2024-11-23 11:44:52 INFO  Log:202 - Verify promptAlert Element Display and enable
+2024-11-23 11:44:52 INFO  Log:204 - Click on Alert promptAlert btn
+2024-11-23 11:44:52 INFO  Log:209 - Handle prompt Alert sucessfully
+2024-11-23 11:44:52 INFO  Log:29 - ==========Prompt Alert Method  End==============
+2024-11-23 11:44:52 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:44:52 INFO  Log:20 - ==========Simple Alert Method Start===========
+2024-11-23 11:44:52 ERROR Log:87 - OK button is not present or enabled..
+2024-11-23 11:44:52 INFO  Log:29 - ==========Simple Alert Method  End==============
+2024-11-23 11:44:52 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:44:52 INFO  Log:29 - ==========current tab End==============
+2024-11-23 11:44:56 INFO  Log:223 - Launch Firefox browser
+2024-11-23 11:45:08 INFO  Log:38 - Launch Regsiter Page
+2024-11-23 11:45:15 INFO  Log:38 - Entered First Name
+2024-11-23 11:45:15 INFO  Log:38 - Entered Last Name
+2024-11-23 11:45:15 INFO  Log:38 - Entered Address
+2024-11-23 11:45:15 INFO  Log:38 - Entered email
+2024-11-23 11:45:15 INFO  Log:38 - Entered phoneTextBox
+2024-11-23 11:45:15 INFO  Log:38 - Click on male
+2024-11-23 11:45:16 INFO  Log:38 - Click on language Option
+2024-11-23 11:45:16 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:45:26 INFO  Log:38 - Entered First Name
+2024-11-23 11:45:26 INFO  Log:38 - Entered Last Name
+2024-11-23 11:45:27 INFO  Log:38 - Entered Address
+2024-11-23 11:45:27 INFO  Log:38 - Entered email
+2024-11-23 11:45:27 INFO  Log:38 - Entered phoneTextBox
+2024-11-23 11:45:27 INFO  Log:38 - Click on male
+2024-11-23 11:45:27 INFO  Log:38 - Select Hobiee
+2024-11-23 11:45:27 INFO  Log:38 - Select Hobiee
+2024-11-23 11:45:27 INFO  Log:38 - Select Hobiee
+2024-11-23 11:45:28 INFO  Log:38 - Click on language Option
+2024-11-23 11:45:28 INFO  Log:38 - Select Lanuguage
+2024-11-23 11:45:29 INFO  Log:38 - Select Lanuguage
+2024-11-23 11:45:29 INFO  Log:38 - Click outSide
+2024-11-23 11:45:29 INFO  Log:38 - Click on skills Option
+2024-11-23 11:45:30 INFO  Log:38 - Click on country Option
+2024-11-23 11:45:31 INFO  Log:38 - Select Country
+2024-11-23 11:45:31 INFO  Log:38 - Click on Year Option
+2024-11-23 11:45:31 INFO  Log:38 - Click on Month Option
+2024-11-23 11:45:32 INFO  Log:38 - Click on day Option
+2024-11-23 11:45:32 INFO  Log:38 - Entered password
+2024-11-23 11:45:32 INFO  Log:38 - Entered confirm Password
+2024-11-23 11:45:32 INFO  Log:38 - Click on submitBtn Option
+2024-11-23 11:45:32 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:45:39 INFO  Log:38 - Entered First Name
+2024-11-23 11:45:39 INFO  Log:38 - Entered Last Name
+2024-11-23 11:45:39 INFO  Log:38 - Entered Address
+2024-11-23 11:45:39 INFO  Log:38 - Entered email
+2024-11-23 11:45:39 INFO  Log:38 - Entered phoneTextBox
+2024-11-23 11:45:39 INFO  Log:38 - Click on female
+2024-11-23 11:45:39 INFO  Log:38 - Select Hobiee
+2024-11-23 11:45:40 INFO  Log:38 - Click on language Option
+2024-11-23 11:45:50 INFO  Log:38 - Select Lanuguage
+2024-11-23 11:46:00 INFO  Log:38 - Select Lanuguage
+2024-11-23 11:46:10 INFO  Log:38 - Select Lanuguage
+2024-11-23 11:46:10 INFO  Log:38 - Click outSide
+2024-11-23 11:46:10 INFO  Log:38 - Click on skills Option
+2024-11-23 11:46:11 INFO  Log:38 - Click on country Option
+2024-11-23 11:46:12 INFO  Log:38 - Select Country
+2024-11-23 11:46:12 INFO  Log:38 - Click on Year Option
+2024-11-23 11:46:12 INFO  Log:38 - Click on Month Option
+2024-11-23 11:46:13 INFO  Log:38 - Click on day Option
+2024-11-23 11:46:13 INFO  Log:38 - Entered password
+2024-11-23 11:46:13 INFO  Log:38 - Entered confirm Password
+2024-11-23 11:46:13 INFO  Log:38 - Click on submitBtn Option
+2024-11-23 11:46:13 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:46:22 INFO  Log:38 - Entered First Name
+2024-11-23 11:46:22 INFO  Log:38 - Entered Last Name
+2024-11-23 11:46:22 INFO  Log:38 - Entered Address
+2024-11-23 11:46:22 INFO  Log:38 - Entered email
+2024-11-23 11:46:22 INFO  Log:38 - Entered phoneTextBox
+2024-11-23 11:46:23 INFO  Log:38 - Click on male
+2024-11-23 11:46:23 INFO  Log:38 - Select Hobiee
+2024-11-23 11:46:23 INFO  Log:38 - Select Hobiee
+2024-11-23 11:46:23 INFO  Log:38 - Click on language Option
+2024-11-23 11:46:24 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:46:24 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:46:24 INFO  Log:29 - ==========current tab End==============
+2024-11-23 11:48:19 INFO  Log:20 - ==========Testing Start===========
+2024-11-23 11:48:19 INFO  Log:93 - Read Property File
+2024-11-23 11:48:19 INFO  Log:38 - Extent Report Initialization 
+2024-11-23 11:48:23 INFO  Log:223 - Launch Firefox browser
+2024-11-23 11:48:38 INFO  Log:38 - Launch Alert Page
+2024-11-23 11:48:38 INFO  Log:20 - ==========Verify Alert Page Start===========
+2024-11-23 11:48:38 INFO  Log:29 - ==========Verify Alert Page End==============
+2024-11-23 11:48:38 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:48:38 INFO  Log:20 - ==========Accept Confirmation Alert Method Start===========
+2024-11-23 11:48:38 INFO  Log:156 - Verify okCancelBtn Element Display and enable
+2024-11-23 11:48:38 INFO  Log:162 - Verify confirmationAlert Element Display and enable
+2024-11-23 11:48:38 INFO  Log:164 - Click on Alert Confirmation btn
+2024-11-23 11:48:38 INFO  Log:166 - handle accept ConfirmationAlert Alert Sucessfully
+2024-11-23 11:48:38 INFO  Log:29 - ==========Accept Confirmation Alert Method End==============
+2024-11-23 11:48:38 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:48:38 INFO  Log:20 - ==========verify Cancel Confirmation Alert Method Start===========
+2024-11-23 11:48:38 INFO  Log:115 - Verify okCancelBtn Element Display and enable
+2024-11-23 11:48:38 INFO  Log:121 - Verify confirmationAlert Element Display and enable
+2024-11-23 11:48:38 INFO  Log:123 - Click on Alert Confirmation btn
+2024-11-23 11:48:38 INFO  Log:125 - handle Confirmation Alert Sucessfully
+2024-11-23 11:48:38 INFO  Log:29 - ==========verify Cancel Confirmation Alert Method  End==============
+2024-11-23 11:48:39 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:48:39 INFO  Log:20 - ==========Prompt Alert Method Start===========
+2024-11-23 11:48:39 INFO  Log:198 - Verify alertTextBox Element Display and enable
+2024-11-23 11:48:39 INFO  Log:202 - Verify promptAlert Element Display and enable
+2024-11-23 11:48:39 INFO  Log:204 - Click on Alert promptAlert btn
+2024-11-23 11:48:39 INFO  Log:209 - Handle prompt Alert sucessfully
+2024-11-23 11:48:39 INFO  Log:29 - ==========Prompt Alert Method  End==============
+2024-11-23 11:48:39 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:48:39 INFO  Log:20 - ==========Simple Alert Method Start===========
+2024-11-23 11:48:39 ERROR Log:87 - OK button is not present or enabled..
+2024-11-23 11:48:39 INFO  Log:29 - ==========Simple Alert Method  End==============
+2024-11-23 11:48:39 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 11:48:39 INFO  Log:29 - ==========current tab End==============
+2024-11-23 12:47:10 INFO  Log:20 - ==========Testing Start===========
+2024-11-23 12:47:10 INFO  Log:93 - Read Property File
+2024-11-23 12:47:10 INFO  Log:38 - Extent Report Initialization 
+2024-11-23 12:47:20 INFO  Log:223 - Launch Firefox browser
+2024-11-23 12:47:28 INFO  Log:38 - Launch Alert Page
+2024-11-23 12:47:28 INFO  Log:20 - ==========Verify Alert Page Start===========
+2024-11-23 12:47:28 INFO  Log:29 - ==========Verify Alert Page End==============
+2024-11-23 12:47:28 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 12:47:28 INFO  Log:20 - ==========Accept Confirmation Alert Method Start===========
+2024-11-23 12:47:28 INFO  Log:156 - Verify okCancelBtn Element Display and enable
+2024-11-23 12:47:29 INFO  Log:162 - Verify confirmationAlert Element Display and enable
+2024-11-23 12:47:29 INFO  Log:164 - Click on Alert Confirmation btn
+2024-11-23 12:47:29 INFO  Log:166 - handle accept ConfirmationAlert Alert Sucessfully
+2024-11-23 12:47:29 INFO  Log:29 - ==========Accept Confirmation Alert Method End==============
+2024-11-23 12:47:29 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 12:47:29 INFO  Log:20 - ==========verify Cancel Confirmation Alert Method Start===========
+2024-11-23 12:47:29 INFO  Log:115 - Verify okCancelBtn Element Display and enable
+2024-11-23 12:47:29 INFO  Log:121 - Verify confirmationAlert Element Display and enable
+2024-11-23 12:47:29 INFO  Log:123 - Click on Alert Confirmation btn
+2024-11-23 12:47:29 INFO  Log:125 - handle Confirmation Alert Sucessfully
+2024-11-23 12:47:29 INFO  Log:29 - ==========verify Cancel Confirmation Alert Method  End==============
+2024-11-23 12:47:29 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 12:47:29 INFO  Log:20 - ==========Prompt Alert Method Start===========
+2024-11-23 12:47:30 INFO  Log:198 - Verify alertTextBox Element Display and enable
+2024-11-23 12:47:30 INFO  Log:202 - Verify promptAlert Element Display and enable
+2024-11-23 12:47:30 INFO  Log:204 - Click on Alert promptAlert btn
+2024-11-23 12:47:30 INFO  Log:209 - Handle prompt Alert sucessfully
+2024-11-23 12:47:30 INFO  Log:29 - ==========Prompt Alert Method  End==============
+2024-11-23 12:47:30 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 12:47:30 INFO  Log:20 - ==========Simple Alert Method Start===========
+2024-11-23 12:47:30 ERROR Log:87 - OK button is not present or enabled..
+2024-11-23 12:47:30 INFO  Log:29 - ==========Simple Alert Method  End==============
+2024-11-23 12:47:30 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 12:47:30 INFO  Log:29 - ==========current tab End==============
+2024-11-23 12:56:00 INFO  Log:20 - ==========Testing Start===========
+2024-11-23 12:56:00 INFO  Log:93 - Read Property File
+2024-11-23 12:56:00 INFO  Log:38 - Extent Report Initialization 
+2024-11-23 12:56:07 INFO  Log:223 - Launch Firefox browser
+2024-11-23 12:56:23 INFO  Log:38 - Launch Alert Page
+2024-11-23 12:56:23 INFO  Log:20 - ==========Verify Alert Page Start===========
+2024-11-23 12:56:23 INFO  Log:29 - ==========Verify Alert Page End==============
+2024-11-23 12:56:23 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 12:56:23 INFO  Log:20 - ==========Accept Confirmation Alert Method Start===========
+2024-11-23 12:56:23 INFO  Log:156 - Verify okCancelBtn Element Display and enable
+2024-11-23 12:56:23 INFO  Log:162 - Verify confirmationAlert Element Display and enable
+2024-11-23 12:56:24 INFO  Log:164 - Click on Alert Confirmation btn
+2024-11-23 12:56:24 INFO  Log:166 - handle accept ConfirmationAlert Alert Sucessfully
+2024-11-23 12:56:24 INFO  Log:29 - ==========Accept Confirmation Alert Method End==============
+2024-11-23 12:56:24 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 12:56:24 INFO  Log:20 - ==========verify Cancel Confirmation Alert Method Start===========
+2024-11-23 12:56:24 INFO  Log:115 - Verify okCancelBtn Element Display and enable
+2024-11-23 12:56:24 INFO  Log:121 - Verify confirmationAlert Element Display and enable
+2024-11-23 12:56:24 INFO  Log:123 - Click on Alert Confirmation btn
+2024-11-23 12:56:24 INFO  Log:125 - handle Confirmation Alert Sucessfully
+2024-11-23 12:56:24 INFO  Log:29 - ==========verify Cancel Confirmation Alert Method  End==============
+2024-11-23 12:56:24 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 12:56:24 INFO  Log:20 - ==========Prompt Alert Method Start===========
+2024-11-23 12:56:25 INFO  Log:198 - Verify alertTextBox Element Display and enable
+2024-11-23 12:56:25 INFO  Log:202 - Verify promptAlert Element Display and enable
+2024-11-23 12:56:25 INFO  Log:204 - Click on Alert promptAlert btn
+2024-11-23 12:56:25 INFO  Log:209 - Handle prompt Alert sucessfully
+2024-11-23 12:56:25 INFO  Log:29 - ==========Prompt Alert Method  End==============
+2024-11-23 12:56:25 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 12:56:25 INFO  Log:20 - ==========Simple Alert Method Start===========
+2024-11-23 12:56:25 ERROR Log:87 - OK button is not present or enabled..
+2024-11-23 12:56:25 INFO  Log:29 - ==========Simple Alert Method  End==============
+2024-11-23 12:56:25 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-11-23 12:56:25 INFO  Log:29 - ==========current tab End==============

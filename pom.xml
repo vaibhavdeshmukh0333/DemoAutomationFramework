@@ -10,7 +10,7 @@
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
-    <version>7.8.0</version>
+    <version>6.14.3</version>
     <scope>test</scope>
 </dependency>
 
@@ -101,22 +101,18 @@
 
  
   </dependencies>
-  
   <build>
   <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.2.5</version>
-        <configuration>
-          <suiteXmlFiles>
-            <suiteXmlFile>testng.xml</suiteXmlFile>
-          </suiteXmlFiles>
-        </configuration>
-      </plugin>
-
-</plugins>
-  
-  </build>
-  
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-surefire-plugin</artifactId>
+      <version>3.2.5</version>
+      <configuration>
+        <suiteXmlFiles>
+          <suiteXmlFile>regression.xml</suiteXmlFile>
+        </suiteXmlFiles>
+      </configuration>
+    </plugin>
+  </plugins>
+</build>
 </project>

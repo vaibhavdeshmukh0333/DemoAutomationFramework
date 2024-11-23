@@ -26,7 +26,7 @@ public class Extentreport {
 		//configure report 
 		spark.config().setTimeStampFormat("EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'");
 		spark.config().setDocumentTitle("Simple Automation Script Report");
-		spark.config().setReportName("Test Report");
+		spark.config().setReportName("Automation Test Report");
 		spark.config().setEncoding("UTF-8");
 		spark.config().setTheme(Theme.STANDARD);
 		report.attachReporter(spark);

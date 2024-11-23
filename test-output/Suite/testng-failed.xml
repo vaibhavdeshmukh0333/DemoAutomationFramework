@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
   <parameter name="browser" value="firefox"/>
   <test name="Test">
     <parameter name="browser" value="firefox"/>
@@ -18,7 +18,7 @@
       <class name="TestScript.TestHome"/>
     </classes>
   </test> <!-- Test -->
-  <test name="Test(failed)">
+  <test name="Test(failed)" parallel="classes">
     <parameter name="browser" value="firefox"/>
     <groups>
       <run>
@@ -26,33 +26,6 @@
       </run>
     </groups>
     <classes>
-      <class name="Superclass.Baseclass">
-        <methods>
-          <include name="ReadPropertyFile"/>
-        </methods>
-      </class> <!-- Superclass.Baseclass -->
-      <class name="TestScript.TestRegister">
-        <methods>
-          <include name="tearDown"/>
-          <include name="VerifyRegisterPage" invocation-numbers="0 2 3"/>
-          <include name="navigateRegisterPage"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- TestScript.TestRegister -->
-      <class name="TestScript.TestWindowHandle">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="navigateTOWindowPage"/>
-        </methods>
-      </class> <!-- TestScript.TestWindowHandle -->
-      <class name="TestScript.TestFrame">
-        <methods>
-          <include name="navigateFramePage"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- TestScript.TestFrame -->
       <class name="TestScript.TestAlert">
         <methods>
           <include name="tearDown"/>
@@ -60,6 +33,34 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- TestScript.TestAlert -->
+      <class name="TestScript.TestFrame">
+        <methods>
+          <include name="navigateFramePage"/>
+          <include name="performNestedFrame"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestScript.TestFrame -->
+      <class name="Superclass.Baseclass">
+        <methods>
+          <include name="ReadPropertyFile"/>
+        </methods>
+      </class> <!-- Superclass.Baseclass -->
+      <class name="TestScript.TestRegister">
+        <methods>
+          <include name="VerifyRegisterPage" invocation-numbers="0"/>
+          <include name="navigateRegisterPage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestScript.TestRegister -->
+      <class name="TestScript.TestWindowHandle">
+        <methods>
+          <include name="verifyMultipleWindowHandling"/>
+          <include name="setUp"/>
+          <include name="verifySeprateWindowHandle"/>
+          <include name="navigateTOWindowPage"/>
+        </methods>
+      </class> <!-- TestScript.TestWindowHandle -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

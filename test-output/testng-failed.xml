@@ -1,9 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test verbose="2" name="Default test">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <parameter name="browser" value="firefox"/>
+  <test name="Test">
+    <parameter name="browser" value="firefox"/>
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
     <classes>
-      <class name="TestScript.TestDragAndDrop"/>
+      <class name="Superclass.Baseclass"/>
+      <class name="TestScript.TestAlert"/>
+      <class name="TestScript.TestWindowHandle"/>
+      <class name="TestScript.TestRegister"/>
+      <class name="TestScript.TestFrame"/>
+      <class name="TestScript.TestHome"/>
     </classes>
-  </test> <!-- Default test -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test -->
+  <test name="Test(failed)" parallel="classes">
+    <parameter name="browser" value="firefox"/>
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestScript.TestAlert">
+        <methods>
+          <include name="tearDown"/>
+          <include name="navigateAlertPage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestScript.TestAlert -->
+      <class name="TestScript.TestFrame">
+        <methods>
+          <include name="navigateFramePage"/>
+          <include name="performNestedFrame"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestScript.TestFrame -->
+      <class name="Superclass.Baseclass">
+        <methods>
+          <include name="ReadPropertyFile"/>
+        </methods>
+      </class> <!-- Superclass.Baseclass -->
+      <class name="TestScript.TestRegister">
+        <methods>
+          <include name="VerifyRegisterPage" invocation-numbers="0"/>
+          <include name="navigateRegisterPage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestScript.TestRegister -->
+      <class name="TestScript.TestWindowHandle">
+        <methods>
+          <include name="verifyMultipleWindowHandling"/>
+          <include name="setUp"/>
+          <include name="verifySeprateWindowHandle"/>
+          <include name="navigateTOWindowPage"/>
+        </methods>
+      </class> <!-- TestScript.TestWindowHandle -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

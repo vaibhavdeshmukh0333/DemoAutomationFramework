@@ -4,7 +4,7 @@
   
  <!-- Test script by using chrome -->
   <test name="Test1">
-  	<parameter name="browser" value="chrome"/>
+  	<parameter name="browser" value="edge"/>
 	   	 <groups>
 	      <run>
 	        <include name="smoke"/>

@@ -123,4 +123,10 @@ public class ListenerClass implements ITestListener
 		//flush report
 		Extentreport.flush();
 	}
+
+
+	public void onTestFailedButWithinSuccessPercentage(ITestResult arg0) {
+		// TODO Auto-generated method stub
+		
+	}
 }

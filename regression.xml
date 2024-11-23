@@ -11,10 +11,7 @@
 		    <classes>
 				<class name="Superclass.Baseclass"/>
 			    <class name="TestScript.TestAlert"/>
-		     	<class name="TestScript.TestWindowHandle"/>
-			    <class name="TestScript.TestRegister"/>
-			    <class name="TestScript.TestFrame"/>
-			   	<class name="TestScript.TestHome"/>
+			    
 		    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
